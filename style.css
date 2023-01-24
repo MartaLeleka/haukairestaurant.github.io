@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+/* Home page*/
+.home {
+    height:100vh;
+    width:100%;
+background-image: linear-gradient(rgba(34,33,33,0.6),rgba(34,33,33,0.6)), url('main.jpg');
+background-size: cover;
+background-position: center;
+}
+
+/* Logo*/
+#h1{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+#h2{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+
+/* navbar*/
+#h3{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+#h3_home{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    padding: 3rem;
+}
+#h3_home:hover{
+    color:#9C254D;
+    text-shadow: 1rem 1.5rem 1.5rem;
+}
+#h3:hover{
+    color:#9C254D;
+    text-shadow: 1rem 1.5rem 1.5rem;
+}
+#h3_dis{
+    color:#9C254D;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 1rem 1.5rem 1.5rem;
+
+}
+.navbar-dark .navbar-toggler{
+    border-color:white;
+}
+#navbarSupportedContent{
+    padding: 20px;
+}
+
+@media all and (max-width:990px){
+
+#h3{
+    line-height: 0.5rem;
+}
+.nav-bar-submenu{
+    position:absolute;
+    right:1rem;
+}
+.navbar-menu{
+    position:absolute;
+    right:1rem;
+    top:5rem;
+}
+
+}
+/* menu */
+.menu{
+    height:100vh;
+    width:100%;
+background-image: linear-gradient(rgba(34,33,33,0.6),rgba(34,33,33,0.6)), url('menu.jpg');
+background-size: cover;
+background-position: center;
+}
+.logo-sm{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.menu-nav{  
+    height: 20vh;
+}
+.h3{
+    color:white;
+    font-family: 'Rock Salt', cursive;
+}
+.h3:hover{
+    color:#9C254D;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 1rem 1.5rem 1.5rem;
+}
+
+/* mini nav */
+.mini-nav a{
+    text-decoration: none;
+    padding:1rem;
+}
+.mini-nav{
+display:inline;
+}
+@media all and (max-width:990px){
+.mini-nav{
+    display: flex;
+}
+}
+/* mini nav */
+#content{
+    height: 70vh;
+    margin-top: 12rem;
+}
+#content h2{
+    line-height: 3rem;
+    padding: 0.5rem;
+}
+.item_name {
+    color:#393E46;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.item_description{
+    color:#393E46;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.appetizer{
+    height: 100vh;
+    width: 100%;
+}
+#top_appetizer{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('appetizer.jpg');
+    background-position:cover;
+    background-size: 80%;
+    background-position:center;
+    text-align: center;
+}
+.main_menu{
+    height: 100vh;
+    width:100%;
+}
+#top_main_menu{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('main_menu.jpg');
+    background-position:cover;
+    background-size: 100%;
+    background-position:center;
+    text-align: center;
+}
+#dessert{
+    height: 100vh;
+    width:100%;
+}
+#top_dessert{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('dessert.jpg');
+    background-position:cover;
+    background-size: 100%;
+    background-position:center;
+    text-align: center;
+}
+#beverages{
+    height: 100vh;
+    width:100%;
+}
+#top_beverages{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('beverages.jpg');
+    background-position:cover;
+    background-size: 100%;
+    background-position:center;
+    text-align: center;
+}
+#content_main{
+    height: 70vh;
+    margin-top: 13rem;
+}
+#content_main h2{
+    line-height: 3rem;
+    padding: 0.5rem;
+}
+#content_dessert{
+    height: 70vh;
+}
+#content_dessert h2{
+    line-height: 3rem;
+    padding: 0.5rem;
+}
+#content_bverages{
+    height: 70vh;
+}
+#content_bverages h2{
+    line-height: 3rem;
+    padding: 0.5rem;
+}
+
+/* contact us */
+.contact_us{
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(36,35,35,0.8),rgba(36,35,35,0.8)), url('contact_us.jpg');
+    background-position:cover;
+    background-position:center;
+    text-align: center;
+}
+@media all and (max-width:990px){
+    .mini-nav{
+       margin-top: 5rem;
+    }
+}
+.fs-2{
+    font-family: 'Rock Salt', cursive !important;
+    color: white;
+}
+#h4{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+/* reservation */
+.reservation{
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(36,35,35,0.8),rgba(36,35,35,0.8)), url('reservation.jpg');
+    background-position:cover;
+    background-position:center;
+    text-align: center;
+}
+.form{
+    margin-top: 5rem;
+}
+#reservation{
+    height: 100vh;
+}
+.fs-4{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.panel{
+    text-align: left;
+    padding: 2rem;
+}
+.form-check, .btn{
+    margin-top: 1rem;
+}
+
+/*roster*/
+.roster{
+    height:100;
+    width:100%;
+    background-image: linear-gradient(rgba(228,221,221,0.6),rgba(228,221,221,0.6)), url('roster/roster.jpg');
+    background-position:cover;
+    background-position:center;
+    text-align: center;
+}
+#nav_roster{
+    font-family: 'Rock Salt', cursive;
+    color: black;
+}
+#h1_roster{
+    font-family: 'Rock Salt', cursive;
+    color: black;
+}
+#nav_roster:hover{
+    color:#9C254D;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 1rem 1.5rem 1.5rem;
+}
+#table_roster{
+    border:solid black 2px;
+}
+@media all and (max-width:990px){
+    #table_roster p {
+font-size: 0.8rem;
+    }
+    .navbar-menu-roster h3{
+margin-top:2rem;
+    }
+}
